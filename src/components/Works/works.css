@@ -25,17 +25,14 @@
 
 .worksImgs {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    width: 100vw;
-    max-width: 65rem;
+    justify-content: center;
 }
 
 .worksImg {
+    width: calc(40% - 10px);
+    margin: 30px;
     object-fit: cover;
-    height: 20rem;
-    margin: 0.5rem;
 }
 
 
@@ -52,6 +49,12 @@
 @media screen and (max-width:585px) {
     .worksImg {
         height: 48vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .worksImg {
+        width: calc(100% - 10px);
     }
 }
 
