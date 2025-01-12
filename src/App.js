@@ -5,18 +5,17 @@ import Works from "./components/Works/works";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 
-
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <div style={{ margin: '20px 0' }}>
+      <div style={{ margin: '0px 0' }}>
         <Intro />
       </div>
-      <div style={{ margin: '20px 0' }}>
+      <div style={{ margin: '0px 0' }}>
         <Skills />
       </div>
-      <div style={{ margin: '20px 0' }}>
+      <div style={{ margin: '60px 0' }}>
         <Works />
       </div>
       <div style={{ margin: '20px 0' }}>

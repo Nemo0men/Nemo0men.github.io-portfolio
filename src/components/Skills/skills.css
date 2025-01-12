@@ -31,8 +31,9 @@
 .skillBars {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    width: 100vw;
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 100%;
     max-width: 100%;
     text-align: center;
 }
@@ -43,21 +44,30 @@
     flex-direction: column;
     align-items: center;
     margin: 1rem;
-    padding: 1.5rem 2rem;
+    padding: 1.0rem 1.5rem;
     border-radius: 0.5rem;
     background: white;
+    flex: 1 1 200px;
+    max-width: 500px;
 }
 
 
 .skillBarImg {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     width: 100px;
-    height: auto;
+}
+
+.uvaSkillBarImg {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 150px;
 }
 
 .skillBarText {
     font-size: 1rem;
     font-weight: 200;
+    text-align: center;
+    padding: 1rem 0;
 }
 
 

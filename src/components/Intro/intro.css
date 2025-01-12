@@ -9,12 +9,14 @@
 
 .bg {
     position: absolute;
-    top: -15rem;
+    top: 4rem;
     right: 0;
-    left: 27rem;
+    left: 52rem;
     z-index: -1;
     object-fit: cover;
-    height: 110vh;
+    height: 70vh;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 
@@ -27,6 +29,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: left;
+    text-align: left;
+    padding-left: 8rem;
 }
 
 .hello {
