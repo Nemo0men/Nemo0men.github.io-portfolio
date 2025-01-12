@@ -1,5 +1,5 @@
 .navbar {
-    background-color: black;
+    background-color: white;
     height: 5rem;
     width: 100vw;
     margin: 0 auto;
@@ -7,15 +7,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 3;
+    color: black;
+    border-bottom: 1px solid rgb(231, 231, 231);
 }
 
 .logo {
     object-fit: cover;
-    height: 3rem;
-    width: 4rem;
+    height: 4.5rem;
+    width: 4.5rem;
 }
 
 
@@ -32,8 +34,8 @@
 
 
 .desktopMenuBtn {
-    background: white;
-    color: black;
+    background: rgb(30, 30, 30);
+    color: white;
     border: none;
     display: flex;
     align-items: center;
@@ -54,4 +56,45 @@
     color: orange;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid orange;
+}
+
+.mobMenu {
+    display: none;
+    object-fit: cover;
+    height: 1.8rem;
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: white;
+    border-radius: 1rem;
+}
+
+
+.listItem {
+    color: black;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: white;
+}
+
+
+@media screen and (max-width: 720px) {
+    .mobMenu {
+        display: flex;
+    }
+    .desktopMenu {
+        display: none;
+    }
+    .desktopMenuBtn {
+        display: none;
+    }
 }

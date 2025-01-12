@@ -36,19 +36,20 @@
     max-width: 40rem;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
-    color: white;
+    color: black;
     border: none;
     border-radius: 0.5rem;
-    background: rgb(40,40,40);
+    background: white;
 }
 
 
 .submitBtn {
-    background: white;
+    background: rgb(30, 30, 30);
     border: none;
     padding: 0.75rem 3.5rem;
     border-radius: 0.5rem;
     margin: 2rem;
+    color: white;
 }
 
 .links {
