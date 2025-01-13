@@ -1,6 +1,6 @@
 .navbar {
     background-color: white;
-    height: 5rem;
+    height: 4rem;
     width: 100vw;
     margin: 0 auto;
     padding: 1rem 2rem;
@@ -16,7 +16,7 @@
 
 .logo {
     object-fit: cover;
-    height: 6.5rem;
+    height: 6rem;
 }
 
 

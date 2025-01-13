@@ -50,6 +50,11 @@
     border-radius: 0.5rem;
     margin: 2rem;
     color: white;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background-color: #050000; 
 }
 
 .links {

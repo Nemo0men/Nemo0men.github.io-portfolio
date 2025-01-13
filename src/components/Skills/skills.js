@@ -29,7 +29,7 @@ const Skills = () => {
                           name is "Nehemiah Kim", and my friends call me "Nemo". I am a
                           Korean-American born in Georgia and raised in Indiana and Virginia.
                           I am 20 years old and I enjoy playing the piano, cello, drums, bass,
-                          electric guitar, acoustic guitar, and singing. I also play tennis and 
+                          electric guitar, and acoustic guitar. I also play tennis and 
                           volleyball. 
                       </p>
                   </div>
@@ -57,7 +57,7 @@ const Skills = () => {
                       <p>
                           My skills span a comprehensive range of software development 
                           and data science technologies. In programming, I am proficient 
-                          in Python, Java, JavaFX, SQL, and React. My machine learning expertise 
+                          in Python, Java, JavaScript, SQL, and React. My machine learning expertise 
                           includes working with TensorFlow, LangChain, and OpenAI API. I focus 
                           on model development, data processing, and web development. I
                           also love public speaking.

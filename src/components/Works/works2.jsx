@@ -6,7 +6,7 @@ export default function Works2() {
     return (
         <main className="Works2">
             <ImageCard imgSrc={user}>
-                <h3 className="text-xl font-bold bm-2">Scribble</h3>
+                <h3 className="text-xl font-bold mb-2">Scribble</h3>
                 <p>
                     stuff
                 </p>

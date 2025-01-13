@@ -1,0 +1,42 @@
+.image-card {
+    position: relative; 
+    height: 550px; 
+    overflow: hidden;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin: 40px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.image1 {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 1rem; /* Adjust font size as needed */
+    text-align: center; /* Center text */
+    margin: 10px 0; /* Add vertical margins */
+    padding: 10px; /* Optional: add padding for better spacing */
+}
+
+.see-more-button {
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Space above the button */
+}
+
+.see-more-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
